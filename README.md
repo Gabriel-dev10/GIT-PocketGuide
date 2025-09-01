@@ -176,9 +176,22 @@ git rebase main                  # Reorganizar commits
 # Limpeza
 git branch -d branch-velha       # Deletar branch local
 ```
-
 ---
 
+## Boas Práticas de Commit Messages
+
+Para manter o histórico do Git organizado, é útil seguir convenções. Aqui estão exemplos:
+
+```bash
+git commit -m "feat: adicionar login de usuário"        # Nova funcionalidade
+git commit -m "fix: corrigir bug na validação de email" # Correção de bug
+git commit -m "chore: atualizar dependências"           # Tarefas gerais, manutenção
+git commit -m "docs: atualizar README"                  # Alterações em documentação
+git commit -m "style: ajustar formatação de código"     # Apenas estilo, sem funcionalidade
+git commit -m "refactor: reorganizar funções de login"  # Refatoração sem alterar comportamento
+git commit -m "test: adicionar testes unitários para login" # Adição de testes
+
+```
 ## Ferramentas Úteis
 
 ```bash
